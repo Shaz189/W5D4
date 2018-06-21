@@ -1,1 +1,40 @@
 /* PHASE 11: Icons */
+.icon-reblog {
+  background-position: 0px -100px;
+}
+
+.icon-reblog:hover {
+  background-position: 0px -125px;
+}
+
+.icon-comment {
+  background-position: 0px 0px;
+}
+
+.icon-comment:hover {
+  background-position: 0px -25px;
+}
+
+.icon-favorite {
+  background-position: 0px -50px
+}
+
+.icon-favorite:hover {
+  background-position: 0px -75px
+}
+
+[class*="icon-"] {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-indent: 100%;
+  overflow: hidden;
+  background-image: url("https://raw.githubusercontent.com/appacademy/curriculum/master/html-css/micro-projects/css-friends/docs/images/sprite.png?token=AkQWbUXsZJqwYCkpvXtHPWQ7PwIjN6lIks5bNN8EwA%3D%3D");
+  background-size: 25px 250px
+}
+
+
+/* div.post-body {
+  background-color: blue;
+  
+} */
